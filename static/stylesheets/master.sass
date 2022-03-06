@@ -1,0 +1,44 @@
+@import "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap"
+@import "variables"
+
+body
+    background: $background
+    color: $foreground
+    font-size: 14px
+    font-family: $font
+
+code
+    font-family: $monospace-font
+
+.app
+    display: flex
+    justify-content: center
+    align-items: center
+    height: 100vh
+    width: 100vw
+
+.app__container
+    padding: 25px 15px
+    position: relative
+    height: 50vh
+    width: 50vw
+    background: $primary-dark
+    border-radius: 5px
+
+input
+    border: none
+    border-radius: 2px
+    padding: 0 15px
+    height: 36px
+    font-size: 1em
+    background: $background
+    color: $foreground
+    outline: none
+
+button
+    height: 36px
+    padding: 0 15px
+    background: $background
+    color: $foreground
+    border: none
+    border-radius: 2px

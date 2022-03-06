@@ -1,0 +1,26 @@
+.section {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 0 15px;
+}
+
+.grid {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15px;
+}
+.grid .grid__item {
+  height: 100%;
+}
+.grid .grid__item .item__title {
+  font-size: 1.5em;
+}
+.grid .grid__item .command_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}/*# sourceMappingURL=index.css.map */
